@@ -1,26 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Website</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        #frame {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <title>Auto-Open Website</title>
+    <script>
+        window.onload = function() {
+            window.open('https://www.facebook.com/', '_blank', 'location=yes,scrollbars=yes,status=yes');
+        };
+    </script>
 </head>
 <body>
-    <iframe id="frame" src="https://www.profitablecpmrate.com/apiys926z?key=372bb0cf055b1984a1d66809be488259" title="Embedded Site"></iframe>
+    <h1>This page will automatically open another website</h1>
 </body>
-</html>￼Enter
+</html>
